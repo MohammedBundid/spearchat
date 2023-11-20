@@ -1,0 +1,26 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "message": "Hello, I'm John!"
+      },
+      {
+        "id": 2,
+        "name": "Alice Smith",
+        "message": "Hi there! I'm Alice."
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "message": "Hey, I'm Bob. Nice to meet you!"
+      },
+      {
+        "id": 4,
+        "name": "Eva Williams",
+        "message": "Greetings! I'm Eva."
+      }
+      
+    ]
+  }
+  

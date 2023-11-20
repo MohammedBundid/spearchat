@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>spearchat</title>
+</head>
+<body>
+
+    <main>
+        <div class="left">
+            <div class="topbar">
+                <div class="top-content">
+                    <div class="search-and-menu">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                        <input type="search" class="search-bar" placeholder="search">
+                    </div>
+                    <div class="chat-above-tools">
+                        <span class="material-symbols-outlined">
+                            add_comment
+                        </span>
+                        <span class="material-symbols-outlined">
+                            archive
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="user-card">
+                    <div class="user-card-top">
+                        <img src="/images/avatar1.jpg" alt="avatar1">
+                        <h3 class="info-name"><%= name %></h3>
+                    </div>
+                    <div class="user-card-chat">
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-card-top">
+                        <img src="/images/avatar2.jpg" alt="avatar1">
+                        <h3 class="info-name"><%= name %></h3>
+                    </div>
+                    <div class="user-card-chat">
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="topbar">
+                <div class="user-info">
+                    <div class="userNamepfpstatus dflex">
+                        <img src="/images/avatar1.jpg" alt="avatar1">
+                        <h3 class="info-name"><%= name %></h3>
+                        <h3 class="info-status">online</h3>
+                    </div>
+                    <div class="info-tools dflex">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <span class="material-symbols-outlined">
+                            more_vert
+                        </span>
+                    </div>
+                </div>          
+            </div>
+            <div class="main-content">
+                <div class="chat-card-outgoing">
+                    <h4>hello am a user</h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="attach">
+                <span class="material-symbols-outlined">
+                    mood
+                </span>
+                <span class="material-symbols-outlined">
+                    attach_file
+                </span>
+            </div>
+            <input type="text" class="msg-bar" placeholder="Type a message">
+            <div class="rec-msg">
+                <span class="material-symbols-outlined">
+                    mic
+                </span>
+            </div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
