@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@now/node"
+      }
+    ],
+    "env": {
+      "MY_SECRET_KEY": "my-secret-value"
+    },
+    "routes": [
+      { "src": "/a/(.*)", "dest": "/a/$1" },
+      { "src": "/(.*)", "dest": "/" }
+    ],
+    "install": {
+      "include": ["package.json", "yarn.lock"]
+    },
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+  
